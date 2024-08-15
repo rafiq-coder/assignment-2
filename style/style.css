@@ -165,3 +165,95 @@
         margin-top: 10px;
         margin-right: 10px;  
     }
+
+
+    @media screen and (max-width: 576px) {
+
+        .navbar{
+            width: 393px;
+            height: 43px;
+            margin-top: 52px;
+            margin-left: 17px;
+            
+            margin-bottom: 10px;
+        }
+        .title{
+            font-size: 2rem;
+        }
+        .nav-links{
+            display: none;
+        }
+       
+         .card-1{
+            
+            margin-bottom: 100px;
+        }
+        .card-2{
+            margin-bottom: 150px;
+        }
+      .header{
+        width: 393px;
+        height: 1024px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      .banner{
+        flex-direction: column;
+        margin: 0 auto;
+      }
+      .banner-content{
+        width: 353px;
+        height: 353px;
+        margin: 0 auto;
+        padding: 20px;
+        y
+        margin-bottom: 20px;
+      }
+      .btn-container{
+        display: flex;
+        width: 352px;
+        height: 54px;
+        gap: 14px;
+      }
+      .color{
+        width: 169px;
+        height: 54px;
+        padding: 16px 40px 16px 40px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+      }
+      .no-color{
+        width: 169px;
+        height: 54px;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 42px;
+      }
+      .banner-title{
+        width: 280px;
+        height: 129px;
+        font-size: 2rem;
+        margin-bottom: 28px;
+      }
+      .banner-description{
+        font-size: 1rem;
+        margin-bottom: 30px;
+        line-height: 20px;
+      }
+
+      .banner-image-container{
+        width: 383px;
+        height: 588px;
+        margin: 0 auto;
+        
+      }
+
+      .banner-image{
+        width: 353px;
+        height: 588px;
+        margin: 0 auto;
+      }
+      .club{
+        display: none;
+      }
+    }
