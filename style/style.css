@@ -717,6 +717,81 @@ border-radius: 10px;
     }
 }
 
-
+/* 5th section */
+.team {
+    text-align: center;
+    margin: 0 auto;
+    max-width:72%;
+    overflow: hidden;
+    position: relative;
+    height: 750px;
+    margin-bottom: 100px;
+    }
+    
+    .trainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    margin-top: 20px;
+     /* height: calc(100% - 30px); */
+     overflow: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px 20px 30px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    border-radius: 20px;
+    row-gap: 12px;
+    column-gap: 20px;
+    align-items: center;
+    max-height: 490px;
+    }
+    .trainer-trainer{
+        color: #a09494;
+    }
+    .trainer-image-container{
+        position: relative;
+        width: 100%;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+     }
+     .trainer-image-container img {
+        width: 100%;
+        height: 250px;
+        border-radius: 20px;
+    }
+    
+    .team-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+        line-height: 120%;
+        margin-bottom: 12px;
+    }
+    .team-description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 50px;
+    }
+    .image-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: #fff;
+        text-align: start;
+        padding: 10px;
+        border-radius: 0 0 20px 20px;
+        padding: 10px;
+    }
 
 
