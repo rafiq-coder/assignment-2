@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.body {
+    height: 2550px;
+    background-color: black;
+} 
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.title{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2rem;
+    color: rgb(230, 83, 60);
+}
+.text-italic{
+    font-family: 'Miama', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 5rem;
+    color: rgba(255, 255, 255, 1);
+    line-height: 60%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-links{
+    padding: 1px;
+    display: flex;
+    /* background-color: blue; */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 42%;
+    border-radius: 39px;
+    gap: 15px;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    /* background-color: chartreuse; */
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none; 
+    font-weight: 500;
+    /* background-color: darkgreen; */
+}
+.active{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 08px 20px 08px 20px;
+    border-radius: 39px;
+   }
+
+.text-gray {
+    color: rgb(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+/* banner related styles */
+.banner{
+    display: flex;
+    
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 1);
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+}
+.banner-content{
+    width: 33%;
+    margin: 0 auto;
+    text-align: left;
+  
+    margin-left: 180px;
+}
+.banner-image{
+    height: auto;
+    max-width: 60%;
+    margin: 0 auto;
+
+}
+.btn-primary{
+    padding: 14px 50px;
+}
+.color{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 40px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    }
+    .no-color{
+        border-radius: 40px;
+        color: rgba(255, 255, 255, 1);
+        border-color: white;
+        background-color: black;
+    }
+    .banner-image-container{
+        position: relative;
+        width: 33%;
+        margin: 0 auto;
+        margin-right: 120px;
+    }
+    
+    .card-box{
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-align: center;  
+    }
+    .card-1{ 
+        top: 100px;
+        right:100px;
+        width: 100px;
+        height: 60px;
+        margin-right: 20px;
+        align-content: center;
+    }
+    .card-2{
+        display: flex;
+           width: 130px;
+           height: 60px;
+           bottom: 40px;  
+           align-content: flex-start;
+           justify-content: space-around
+           margin-right: flex-start;
+           margin-left: 10px;   
+       }
+       .card-box card-1{
+        margin-left;: 50px
+       }
+       .ctd{
+        display-flex;   
+    }
+    .card-box h3{
+        margin: 0;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        text-align: left;
+    }
+    .card-box p{
+        margin: 0;
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgb(230, 83, 60);
+        margin-top: 10px;
+        margin-right: 10px;  
+    }
