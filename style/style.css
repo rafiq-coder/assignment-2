@@ -270,9 +270,8 @@ main > section{
    text-align: center;
    width: 74%;
    height: 452px;
-   background-color: rgb(174, 0, 255);
-
    }
+
    .habit-title{
     font-size: 2rem;
     margin-bottom: 12px;
@@ -321,6 +320,49 @@ border-radius: 10px;
  margin-bottom: 55px;
 }
 
+
+@media screen and (max-width: 576px){
+    .habit{
+        width: 338px;
+        height: 1398px;
+    }
+    .habit-title-paragraph{
+        width: 318px;
+        height: 124px;
+        
+        margin: 0 auto;
+        margin-bottom: 50px;
+       
+    }
+    .habit-title{
+        margin-bottom: 14px;
+        font-size: 1.7rem;
+    }
+    .habit-paragraph{
+        font-size: 14px;
+        width: 316px;
+        height: 72px;
+        line-height: 18px;
+        font-weight: 400;
+        
+    }
+    .habit-grid-container{
+        flex-direction: column;
+        align-items: center;
+        width: 338px;
+        height: 1216px;
+    }
+    .grid-item{
+        width: 231px;
+        height: 274px;
+    }
+    .grid-item-title{
+        font-size: 1.2rem;
+    }
+    .grid-item-description{
+        font-size: 14px;
+    }
+}
 
 
 
