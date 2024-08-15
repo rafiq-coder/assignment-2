@@ -470,6 +470,162 @@ border-radius: 10px;
      }
  }
  
+ /* bmi section */
+  
+
+ .bmi-form{
+
+ }
+ 
+ 
+ .bmi-cal{
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 415px;
+ }
+ 
+ .calculate-container{
+    
+     width: 560px;
+     height: 370px;
+    
+ }
+ .bmi-column{
+     
+
+ }
+ .table-title{
+     width: 443px;
+     height: 34px;
+     font-size: 1.5rem;
+     color: rgb(255, 255, 255);
+     margin-bottom: 50px;
+ }
+ .bmi-title-des{
+     width: 650px;
+     height: 110px;
+     margin: 0 auto;
+     margin-bottom: 80px;
+    
+ }
+ .bmi-title{
+     margin: 0 auto;
+     font-size: 2rem;
+     color: rgb(255, 255, 255);
+     margin-bottom: 14px;
+ }
+ .bmi-des{
+     font-size: 14px;
+     line-height:24px;
+     color: rgba(255, 255, 255, 0.5);
+ }
+ .table, th, td {
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     border-collapse: collapse;
+ }
+ .table{
+     width: 300px;
+     height: 210px;
+ }
+ th, td{
+     text-align: left;
+     padding: 16px;
+ }
+ th{
+     font-size: 1rem;
+     color: rgb(255, 255, 255);
+ }
+ td{
+     font-size: .8rem;
+     color: rgba(255, 255, 255, 0.5);
+ }
+ .calculate-bmi{
+     width: 560px;
+     height: 90px;
+     margin-bottom: 20px;
+ }
+ .form-input{
+     width: 560px;
+     height: 165px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-bottom: 26px;
+ }
+ .form-btn{
+     width: 215px;
+     height: 45px;
+     border-radius: 40px;
+     background-color: rgb(230, 83, 60);
+     padding: 16px 40px 16px 40px;
+     border: none;
+     font-size: 1rem;
+     color: rgb(255, 255, 255);
+ }
+ .calculate-title{
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+ }
+ .calculate-description{
+     font-size: 14px;
+     color: rgba(255, 255, 255, 0.5);
+     line-height: 20px;
+ }
+ .height{
+     width: 265px;
+     height: 45px;
+     box-sizing: content-box;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.1);
+     border: none;
+     color: rgba(255, 255, 255, 0.6);
+     margin-bottom: 7px;
+ }
+ .weight{
+     width: 265px;
+     height: 45px;
+     box-sizing: content-box;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.1);
+     border: none;
+     color: rgba(255, 255, 255, 0.6);
+     margin-bottom: 7px;
+ }
+ .age{
+     width: 265px;
+     height: 45px;
+     box-sizing: content-box;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.1);
+     border: none;
+     color: rgba(255, 255, 255, 0.6);
+     margin-bottom: 7px;
+ }
+ .sex{
+     width: 270px;
+     height: 46px;
+     display: inline-block;
+     box-sizing: content-box;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.1);
+     border: none;
+     color: rgba(197, 162, 162, 0.6);
+     margin-bottom: 7px;
+ }
+ .saaf{
+     width: 560px;
+     height: 49px;
+     box-sizing: content-box;
+     display: inline-block;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.1);
+     border: none;
+     color: rgba(197, 162, 162, 0.6);
+ }
 
 
-
+ 
