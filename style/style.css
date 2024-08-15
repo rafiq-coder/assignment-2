@@ -628,4 +628,95 @@ border-radius: 10px;
  }
 
 
- 
+ @media screen and (max-width: 576px) {
+    .bmi-title-des{
+        width: 350px;
+        height: 124px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .bmi-title{
+        font-size: 1.7rem;
+        color: rgb(255, 255, 255);
+       
+    }
+    .bmi-des{
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 400;
+        line-height: 24px;
+        
+    }
+    .calculate-bmi{
+        margin-left: 20px;
+    }
+    .bmi-cal{
+        width: 394px;
+        height: 772px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .table{
+        width: 310px;
+        height: 216px;
+        
+    }
+    .table-title{
+        margin-bottom: 23px;
+    }
+    .bmi-column{
+        width: 310px;
+        height: 260px;
+        margin-left: 20px;
+    }
+    .calculate-container{
+        width: 354px;
+        height: 395px;
+        margin: 0 auto;
+    }
+    .calculate-bmi{
+        width: 354px;
+        height: 105px;
+        
+        margin: 0 auto;
+        margin-bottom: 34px;
+    }
+    .form-input{
+        width: 353px;
+        height: 168px;
+        box-sizing: content-box;
+        margin-bottom: 20px;
+        
+    }
+    .height{
+        width: 167px;
+        height: 48px;
+        
+    }
+    .weight{
+        width: 167px;
+        height: 48px;
+     
+    }
+    .age{
+        width: 167px;
+        height: 48px;
+    }
+    .sex{
+        width: 171px;
+        height: 48px;
+        
+    }
+    .saaf{
+        width: 353px;
+        height: 48px;
+    }
+    .calculate-container{
+        margin-top: 30px;
+       
+    }
+}
+
+
+
+
