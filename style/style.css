@@ -33,6 +33,7 @@
     margin: 0 auto;
     align-items: center;
 }
+
 .nav-links{
     padding: 1px;
     display: flex;
@@ -183,7 +184,7 @@
         .nav-links{
             display: none;
         }
-       
+      
          .card-1{
             
             margin-bottom: 100px;
@@ -830,8 +831,6 @@ border-radius: 10px;
    }
    .image-info{
     margin-bottom: 20px;
-    
-    
    }
    .img-1{
     width: 100%;
@@ -940,7 +939,7 @@ flex-wrap: wrap;
 
 @media screen and (max-width: 576px) {
     .footer{
-        max-width: 353px;
+        max-width: 393px;
         height: 710px;
         padding: 0px 0px;
         margin: 0 auto;
